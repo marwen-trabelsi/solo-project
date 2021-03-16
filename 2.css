@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 29, 29);
+}
+.head{
+   /* position:fixed; */
+    margin: 2px;
+    padding: 40px;
+    background-color: black;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+}
+.nav{
+    margin: 2px;
+    background-color: #333;
+    padding: 45px;
+}
+
+.nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+.nav input{
+    float: right;
+    padding: 12px 14px;
+}
+
+
+/* link color change */
+.nav a:hover {
+    background-color: rgb(165, 28, 28);
+}
+
+
+.section{border-radius: 25px;}
+section{
+    float: right;
+    margin: 60px;
+    padding: 80px 60px;
+    background-image: url("bck.jpg");
+    background-repeat: no-repeat;
+    background-size: 410px 810px;
+    border-color:black;
+}
+
+button{
+    border-radius: 10px;
+    border-color: rgb(0, 195, 255);
+    padding: 10px 22px;
+}
+
+.select-selected {
+   background-color: DodgerBlue;
+    border-radius: 25px;
+}
+
+.input{
+    background-color: DodgerBlue;
+    border-radius: 5px; 
+}
+.input input:focus{
+    background-color: rgb(185, 75, 75);  
+}
+p{
+    font-size: larger;
+    font-size: 25px;
+    font-style:inherit;
+    color: ivory;
+    font-weight: bold;
+}
+table{
+    margin: 80px;
+    background-color: black;
+    float: left;
+    border-radius: 5px;
+    padding: 14px 14px;
+}
+.sizing{
+    width: 380px;
+    height: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    /* position:fixed; */
+    clear: both;
+    left: 0;
+    bottom: 0;
+    padding: 35px;
+    background-color: black;
+    margin-top: 2px;
+}
+.ad{
+    padding: 9px;
+    background-color: darkslategrey;
+    font-style:oblique;
+    color: floralwhite;
+}
+.haut{
+  margin: 16px;
+  float:right;
+  background-color:darkslategrey;
+  padding: 4px 4px;
+}
+.heady{
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 12px 14px;
+ text-decoration: none;
+ 
+}
+.haut a:hover {
+  background-color: rgb(165, 28, 28);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
